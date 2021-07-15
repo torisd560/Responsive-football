@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
 /* Common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
@@ -15,74 +15,65 @@ p{
     font-style: normal; 
     color:#6C6C6C;
 }
-/* hedaer styles start*/
+/* hedaer menu-bar styles start*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 1149.18px;
+    width: 90%;
     height: 44px;
-    left: 156px;
+    left: 75px;
     top: 42px;
 } 
 nav span a{
     color: hsl(347, 47%, 96%);
-}nav span .fas{
-    background: #E02C6D; 
-    padding: 5px;
-}
-/* header style end */
-/* ------------------
-   Copa America 2021
-------------------- */
-.container{
-    display: flex;
-    align-items: center;
-    width:1440px;
-    height: 677px;
-    background: #2D25A0;
-    transition: transform 5s linear;
-}
-/* animation hover start */
-.container:hover{
-    background-color: #798585;
-    transform: scale(0.5, 0.5); 
-}
-.copa-america a:hover{
-    background-color: rgb(71, 193, 241);
-    border-radius:25px;
-}
-/* animation hover end */
-.copa-america{
-    padding-top: 207px;
-    padding-left: 156px;
-    padding-bottom: 204px;
-} 
-.section-title{
-    color:#FFFFFF; 
-    font-size: 64px;
-    line-height: 80px;
-    width: 485px;
-    height: 230px; 
-} 
-.copa-america a{
-    display: inline-block;
-    width: 168px;
     font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    color: #FFFFFF;
-    background: #E02C6D;
-    padding: 10px 24px;
+    padding: 10px;
+}
+nav span .fas{
+    background: #E02C6D; 
+    padding: 10px 20px;
+    font-size: 20px;
+}
+/* Container section Copa America styles start */
+.container{
+    width: 100%;
+    background-color:  #2D25A0;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+}
+.copa-america{
+    width: 466.69px;
+    height: 207.36px;
+    margin-left: 70px;
+    margin-top: 95px;
+}
+.heading-title{
+    font-size: 69px;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 0.911);
+}
+.copa-america a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(#ff589b -19.22%,#ff136f);
+    padding: 10px 20px ;
+    border-radius: 100px;
+    margin-bottom: 20px;
 }
 .banner{
-    margin: 153px 141px 102px 86px;
-    padding: 18px 84px 28px 84px;
+    margin-left: 50px;
+    margin-top: 150px;
 }
 .banner img{
-    width: 556.01px;
-    height: 438px;
+    width: 556px;
+    height: 438px;    
 }
 /* ------------------ 
   players-cardsection
@@ -102,15 +93,16 @@ nav span a{
     margin-bottom: 100px;
 }
 .main-card{
+   
     width: 330px;
     height: 474px;
     padding: 20px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player{
+/* .player{
     text-align: center;
-}
+} */
 .player img{
     display:inline-block;
     width: 300px;
