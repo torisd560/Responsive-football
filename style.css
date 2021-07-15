@@ -15,7 +15,7 @@ p{
     font-style: normal; 
     color:#6C6C6C;
 }
-/* hedaer menu-bar styles start*/
+/* hedaer menu-bar styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ nav span .fas{
     padding: 10px 20px;
     font-size: 20px;
 }
-/* Container section Copa America styles start */
+/* Container section Copa America styles  */
 .container{
     width: 100%;
     background-color:  #2D25A0;
@@ -76,7 +76,7 @@ nav span .fas{
     height: 438px;    
 }
 /* ------------------ 
-  players-cardsection
+  players-card section
   ---------------- */
 .card-section{
     display: grid;
@@ -85,7 +85,7 @@ nav span .fas{
     column-gap: 30px;
     row-gap: 27px;
     Width :100%;
-    background: #FFFFFF;
+    background: #f8f5f5;
     margin-left: 10px;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -106,13 +106,9 @@ nav span .fas{
    color: #18191F;
    font-size: 28px;
 }
-/* ------------
-end card section
-------------------- */
-
-/* -----------
-    start footer styles
-    ---------- */
+/* -------------------
+     footer styles
+    ----------------- */
 footer{
     display: flex;
     flex-direction: column;
@@ -138,4 +134,42 @@ footer p{
     font-size: large;
     font-weight: normal;
 }
-/* end footer styles */
+/*--------------------------- 
+Mediaquery styles for mobile device
+-------------------------- */
+@media only screen and (max-width:688px) {
+
+.container{
+    width:100%
+}
+nav{
+    display: none;
+}
+
+.content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        padding:0;
+    }
+.copa-america{
+        width: 469.69px;
+        height: 300.36px;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+.heading-title{
+        font-size: 68px;
+    }
+.banner {
+        margin-left: 10px;
+        margin-top: 150px;
+    } 
+.card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+
+}
