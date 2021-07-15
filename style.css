@@ -82,27 +82,21 @@ nav span .fas{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    align-items: center;
     column-gap: 30px;
     row-gap: 27px;
-    Width :50%;
-    Height :100%;
+    Width :100%;
     background: #FFFFFF;
-    margin-left: 100px;
+    margin-left: 10px;
     margin-top: 70px;
     margin-bottom: 100px;
 }
 .main-card{
-   
-    width: 330px;
+    width: 300px;
     height: 474px;
     padding: 20px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-/* .player{
-    text-align: center;
-} */
 .player img{
     display:inline-block;
     width: 300px;
